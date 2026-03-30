@@ -26,7 +26,7 @@ function Team() {
                                         onMouseEnter={() => setActive(item.id)}
                                     >
                                         <div className="dz-media">
-
+                                            <Image src={item.image} alt="/" style={{ visibility: 'hidden' }} />
                                             <Link href="/appointment" className="btn btn-primary">
                                                 <i className="feather icon-calendar m-r5" /> Appointment Now
                                             </Link>
