@@ -156,7 +156,6 @@ export const empolydata = [
 // alllocation
 export const locationdata = [
     { delay: '0.2s', title: 'United State', },
-    { delay: '0.4s', title: 'Canada', },
 ];
 // awards 
 export const awardswiperdata = [
