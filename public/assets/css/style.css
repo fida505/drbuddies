@@ -45698,3 +45698,27 @@ footer.site-footer.footer-dark .fb-inner {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/** 
+ * Final Overrides for DrBuddies 
+ * These are placed at the end of the file to ensure they override template defaults.
+ */
+.sub-menu-down > a::after,
+.navbar-nav > li.sub-menu-down > a::after,
+.site-header .nav > li.sub-menu-down > a::after {
+    display: none !important;
+    background-image: none !important;
+    content: none !important;
+}
+
+.sub-menu-down > a .tabIndex {
+    display: inline-block !important;
+    margin-left: 5px !important;
+    font-size: 11px !important;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+
+.sub-menu-down.open > a .tabIndex {
+    transform: rotate(180deg);
+}

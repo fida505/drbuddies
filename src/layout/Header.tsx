@@ -3,6 +3,7 @@ import Link from "next/link";
 import { IMAGES } from "../constant/theme";
 import { headerdata, headerinfo,  HeaderItem  } from "../constant/alldata";
 import { FormEvent, useEffect, useRef, useState } from "react";
+// @ts-ignore
 import emailjs from '@emailjs/browser'; 
 import Image from "next/image";
 
@@ -43,9 +44,9 @@ function Header() {
         e.preventDefault(); 
         if (!form.current) return;
         emailjs.sendForm('service_61hny88', 'template_vvlidif', form.current, {publicKey: 'aYOgb_ORYkjD-hXhl',})
-        .then((result) => {
+        .then((result: { text: string }) => {
             console.log('SUCCESS!', result.text);
-        },(error) => {
+        },(error: { text: string }) => {
             console.log('FAILED...', error.text);
         },
         );
@@ -96,8 +97,8 @@ function Header() {
                                         let menuClassName = data.classChange;
                                         if (menuClassName === 'has-mega-menu') {
                                             return (
-                                                <li key={i} className={`has-mega-menu sub-menu-down auto-width menu-left ${i == isActive ? 'open' : ''}`} >
-                                                    <Link href={"#"} onClick={() => menuHandler(i)}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
+                                                <li key={i} className={`has-mega-menu sub-menu-down auto-width menu-left ${i == isActive ? 'open' : ''}`} onClick={() => menuHandler(i)} >
+                                                    <Link href={"#"}> <span>{data.title}</span> <i className="fa-solid fa-chevron-down tabIndex" style={{ display: 'inline-block', marginLeft: '5px', fontSize: '12px' }} /> </Link>
                                                     <div className="mega-menu">
                                                         <ul className="demo-menu">
                                                             {data.content?.map((item, index) => (
@@ -115,7 +116,7 @@ function Header() {
                                         else if (menuClassName === 'sub-menu-down') {
                                             return (
                                                 <li key={i} className={`sub-menu-down ${i == isActive ? 'open' : ''}`} onClick={() => menuHandler(i)}>
-                                                    <Link href={"#"}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
+                                                    <Link href={"#"}> <span>{data.title}</span> <i className="fa-solid fa-chevron-down tabIndex" style={{ display: 'inline-block', marginLeft: '5px', fontSize: '12px' }} /> </Link>
                                                     <ul className="sub-menu">
                                                         {data.content?.map((item, index) => (
                                                             <li key={index}> <Link href={item.to}>{item.title}</Link> </li>

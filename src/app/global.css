@@ -121,3 +121,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom Overrides for Navigation Dropdown Icon */
+.sub-menu-down > a::after {
+  display: none !important;
+}
+
+.sub-menu-down > a .tabIndex {
+  margin-left: 5px;
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+
+.sub-menu-down.open > a .tabIndex {
+  transform: rotate(180deg);
+}

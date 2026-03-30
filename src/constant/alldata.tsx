@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image"
 // layout 
 // header 
 export const headerinfo = [
-    { image: IMAGES.svgicon1, title: 'Contatc Us', paragraph: <Link href="tel:+11234567890" className="text-secondary">+91 97473 06060</Link>, },
+    { image: IMAGES.svgicon1, title: 'Contact Us', paragraph: <Link href="tel:+11234567890" className="text-secondary">+91 97473 06060</Link>, },
     { image: IMAGES.svgicon2, title: 'Email Supports', paragraph: <Link href="mailto:admin@drbuddies.com" className="text-secondary">admin@drbuddies.com</Link>, },
     { image: IMAGES.svgicon3, title: 'Online Appointment', paragraph: <span>Book Now<i className="feather icon-arrow-right" /></span>, },
     { image: IMAGES.svgicon4, title: 'Supports', paragraph: '24x7 Supports', },
