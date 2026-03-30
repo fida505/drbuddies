@@ -69,9 +69,7 @@ export const headerdata : HeaderItem[] = [
         title: "Blogs",
         classChange: "sub-menu-down",
         content: [
-            { title: "Blog Grid", to: "/blog-grid" },
-            { title: "Blog List Sidebar", to: "/blog-list-sidebar" },
-            { title: "Blog Details", to: "/blog-details" },
+            { title: "Blog List", to: "/blog-list-sidebar" },
         ],
     },
     { title: "Contact Us", to: "/contact-us", },
