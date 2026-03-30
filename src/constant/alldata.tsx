@@ -198,9 +198,9 @@ export const clientswiperdata2 = [
 ]
 // counter 
 export const countupdata = [
-    { title: 'Specialists', delay: '0.4s', countup: 200, span: '+', },
+    { title: 'Specialists', delay: '0.4s', countup: 50, span: '+', },
     { title: 'Happy Patients', delay: '0.6s', countup: 45,  span: 'K', },
-    { title: 'Winning Awards', delay: '0.8s', countup: 150, span: '+', },
+    { title: 'Winning Awards', delay: '0.8s', countup: 100, span: '+', },
 ]
 // frequently 
 export const accordiondata = [
