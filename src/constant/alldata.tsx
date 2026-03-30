@@ -255,7 +255,7 @@ export const pricingdata1 = [
 ]
 export const pricingdata2 = [
     {
-        delay: '0.4s', title: <h2 className="pricingtable-bx">Free<small>/ Lifetime</small></h2>,
+        delay: '0.4s', title: <h2 className="pricingtable-bx">$10<small>/ Month</small></h2>,
         feature: <ul className="pricingtable-features">
             <li><Image src={IMAGES.Check} alt="" /></li>
             <li><Image src={IMAGES.Check} alt="" /></li>
