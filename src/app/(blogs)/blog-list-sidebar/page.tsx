@@ -12,7 +12,7 @@ function BlogListSidebar() {
         <>
             <Header />
             <main className="page-content">
-                <PageBanner title="Blog List Sidebar" bnrimage={IMAGES.bnr2.src} />
+                <PageBanner title="Blog List" bnrimage={IMAGES.bnr2.src} />
                 <section className="content-inner">
                     <div className="container">
                         <div className="row">
