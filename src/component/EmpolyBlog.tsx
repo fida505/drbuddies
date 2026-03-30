@@ -13,7 +13,7 @@ function EmpolyBlog() {
                     <div className="col-xl-3 col-sm-6 wow fadeInUp" data-wow-delay={data.delay} data-wow-duration="0.8s" key={i}>
                         <div className={`dz-team style-1 box-hover ${active === data.id ? 'active' : ''}`} onMouseEnter={() => setActive(data.id)}>
                             <div className="dz-media">
-                                <Image src={data.image} alt="/" />
+
                                 <Link href="/appointment" className="btn btn-primary">
                                     <i className="feather icon-calendar m-r5" /> Appointment Now
                                 </Link>
