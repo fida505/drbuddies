@@ -12,7 +12,7 @@ const SurgeryBlog = () =>{
                 <div className="col-xxl-4 col-sm-6" key={i}>
                     <div className={`dz-team style-1 box-hover ${active === item.id ? 'active' : ''}`} onMouseEnter={() => setActive(item.id)}>
                         <div className="dz-media">
-
+                            <Image src={item.image} alt="/" />
                             <Link href="/appointment" className="btn btn-primary">
                                 <i className="feather icon-calendar m-r5" /> Appointment Now
                             </Link>
