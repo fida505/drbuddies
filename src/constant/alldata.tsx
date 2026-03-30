@@ -44,9 +44,6 @@ export const headerdata : HeaderItem[] = [
             { title: "Patient Info", to: "/patient-info" },
             { title: "Testimonial", to: "/testimonial" },
             { title: "Faqs", to: "/faqs" },
-            { title: "Error 404", to: "/error-404" },
-            { title: "Coming Soon", to: "/coming-soon" },
-            { title: "Under construction", to: "/under-construction" },
         ],
     },
     {
