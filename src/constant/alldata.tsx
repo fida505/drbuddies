@@ -302,14 +302,27 @@ export const testiswipeerdata = [
 ]
 // servicebox
 export const serviceboxdata = [    
-    { id: 1, delay: '0.1s', title: 'Angioplasty', svg1: SVGICONS.iconcell1, svg2: SVGICONS.iconbg1, },
-    { id: 2, delay: '0.2s', title: 'Cardiology', svg1: SVGICONS.iconcell2, svg2: SVGICONS.iconbg2, },
-    { id: 3, delay: '0.3s', title: 'Dental', svg1: SVGICONS.iconcell3, svg2: SVGICONS.iconbg3, },
-    { id: 4, delay: '0.4s', title: 'Endocrinology', svg1: SVGICONS.iconcell4, svg2: SVGICONS.iconbg4, },
-    { id: 5, delay: '0.5s', title: 'Eye Care', svg1: SVGICONS.iconcell5, svg2: SVGICONS.iconbg5, },
-    { id: 6, delay: '0.6s', title: 'Neurology', svg1: SVGICONS.iconcell6, svg2: SVGICONS.iconbg6, },
-    { id: 7, delay: '0.7s', title: 'Orthopedics', svg1: SVGICONS.iconcell7, svg2: SVGICONS.iconbg7, },
-    { id: 8, delay: '0.8s', title: 'RMI', svg1: SVGICONS.iconcell8, svg2: SVGICONS.iconbg8, },
+    { id: 1, delay: '0.1s', title: 'Pulmonology', description: 'Dr. Athulya S Kumar', svg1: SVGICONS.iconcell1, svg2: SVGICONS.iconbg1, },
+    { id: 2, delay: '0.2s', title: 'Orthopedics', description: 'Dr. Sunil Lal K', svg1: SVGICONS.iconcell2, svg2: SVGICONS.iconbg2, },
+    { id: 3, delay: '0.3s', title: 'Nephrology', description: 'Dr. Jayameena', svg1: SVGICONS.iconcell3, svg2: SVGICONS.iconbg3, },
+    { id: 4, delay: '0.4s', title: 'Sports Medicine', description: 'Dr. Abrar Hassan', svg1: SVGICONS.iconcell4, svg2: SVGICONS.iconbg4, },
+    { id: 5, delay: '0.5s', title: 'Dermatology', description: 'Dr. Fathima Hazna KT', svg1: SVGICONS.iconcell5, svg2: SVGICONS.iconbg5, },
+    { id: 6, delay: '0.6s', title: 'Pediatrics', description: 'Dr. Sudha Krishnanunni, Dr. Hasna Jasmine A K, Dr. Abdul Rauf KK', svg1: SVGICONS.iconcell6, svg2: SVGICONS.iconbg6, },
+    { id: 7, delay: '0.7s', title: 'Urology', description: 'Dr. Jithin Lal M', svg1: SVGICONS.iconcell7, svg2: SVGICONS.iconbg7, },
+    { id: 8, delay: '0.8s', title: 'Gynecology', description: 'Dr. Indira', svg1: SVGICONS.iconcell8, svg2: SVGICONS.iconbg8, },
+    { id: 9, delay: '0.1s', title: 'Oncology', description: 'Dr. Rifayi V', svg1: SVGICONS.iconcell1, svg2: SVGICONS.iconbg1, },
+    { id: 10, delay: '0.2s', title: 'General Medicine', description: 'Dr. Iyad Muhammad P', svg1: SVGICONS.iconcell2, svg2: SVGICONS.iconbg2, },
+    { id: 11, delay: '0.3s', title: 'Gastroenterology & Hepatology', description: 'Dr. Sandeep Menon', svg1: SVGICONS.iconcell3, svg2: SVGICONS.iconbg3, },
+    { id: 12, delay: '0.4s', title: 'Diabetology', description: 'Dr. Iyad Muhammad P', svg1: SVGICONS.iconcell4, svg2: SVGICONS.iconbg4, },
+    { id: 13, delay: '0.5s', title: 'Infertility Medicine', description: 'Dr. Iyad Muhammad P', svg1: SVGICONS.iconcell5, svg2: SVGICONS.iconbg5, },
+    { id: 14, delay: '0.6s', title: 'Gastroenterology', description: 'Dr. Sameer Sakkeer Hussain, Dr. Sandeep Menon', svg1: SVGICONS.iconcell6, svg2: SVGICONS.iconbg6, },
+    { id: 15, delay: '0.7s', title: 'Rheumatology', description: 'Dr. Chandhu A S', svg1: SVGICONS.iconcell7, svg2: SVGICONS.iconbg7, },
+    { id: 16, delay: '0.8s', title: 'Laparoscopic Surgery', description: 'Dr. Muhammed Shameem', svg1: SVGICONS.iconcell8, svg2: SVGICONS.iconbg8, },
+    { id: 17, delay: '0.1s', title: 'Ophthalmology', description: 'Dr. Jazeel K, Dr. Najwa Abdulla PT', svg1: SVGICONS.iconcell1, svg2: SVGICONS.iconbg1, },
+    { id: 18, delay: '0.2s', title: 'ENT', description: 'Dr. Nusfan TT', svg1: SVGICONS.iconcell2, svg2: SVGICONS.iconbg2, },
+    { id: 19, delay: '0.3s', title: 'Spine Surgery', description: 'Dr. Jipin Gopi', svg1: SVGICONS.iconcell3, svg2: SVGICONS.iconbg3, },
+    { id: 20, delay: '0.4s', title: 'Psychiatry', description: 'Psychiatry Department', svg1: SVGICONS.iconcell4, svg2: SVGICONS.iconbg4, },
+    { id: 21, delay: '0.5s', title: 'General Practitioner', description: 'Dr. Shalija M', svg1: SVGICONS.iconcell5, svg2: SVGICONS.iconbg5, },
 ]
 // sidebar 
 export const tagdata = [

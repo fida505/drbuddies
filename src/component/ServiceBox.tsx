@@ -21,11 +21,11 @@ function ServiceBox() {
                                 </span>
                                 <div className="icon-content">
                                     <h3 className="dz-title">{data.title}</h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content.</p>
+                                    <p>{data.description}</p>
                                 </div>
                             </div>
                             <div className="icon-bx-footer">
-                                <span className="text-badge"><i className="fa fa-circle text-primary" /> 25+ Doctor</span>
+                                <span className="text-badge"><i className="fa fa-circle text-primary" /> Specialists</span>
                                 <Link href="/service-detail" className="btn btn-square btn-primary rounded-circle">
                                     <i className="feather icon-arrow-up-right" />
                                 </Link>
