@@ -12,12 +12,12 @@ function ServiceBox() {
                     <div className="col-xl-3 col-md-6 m-b30 wow fadeInUp" data-wow-delay={data.delay} data-wow-duration="0.8s" key={i}>
                         <div className={`icon-bx-wraper style-3 box-hover ${active === data.id ? 'active' : ''}`} onMouseEnter={() => setActive(data.id)}>
                             <div className="icon-bx-head">
-                                <div className="icon-bx"> 
-                                    <span className="icon-cell" dangerouslySetInnerHTML={{__html : data.svg1}}>  
-                                    </span> 
+                                <div className="icon-bx">
+                                    <span className="icon-cell" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <i className={data.iconClass} style={{ fontSize: '38px' }} />
+                                    </span>
                                 </div>
-                                <span className="icon-bg" 
-                                    dangerouslySetInnerHTML={{__html : data.svg2}}> 
+                                <span className="icon-bg" dangerouslySetInnerHTML={{__html: data.svg2}}>
                                 </span>
                                 <div className="icon-content">
                                     <h3 className="dz-title">{data.title}</h3>
