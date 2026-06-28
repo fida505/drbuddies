@@ -3,7 +3,7 @@ import Image from "next/image";
 import { IMAGES } from "@/constant/theme";
 import Header from "@/layout/Header";
 import Footer from "@/layout/Footer";
-import DiagnosisReport from "./_components/DiagnosisReport";
+
 import WorldClass from "@/component/WorldClass";
 import Counter from "@/component/Counter";
 import ServiceBox from "@/component/ServiceBox";
@@ -95,6 +95,7 @@ function HomePage() {
                       className="thumbnail"
                       src={IMAGES.herobanner1}
                       alt=""
+                      unoptimized={true}
                     />
                     <div className="circle-wrapper">
                       <span className="circle1"></span>
