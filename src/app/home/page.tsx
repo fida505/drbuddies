@@ -104,40 +104,7 @@ function HomePage() {
                         <Image src={IMAGES.herobannerheart} alt="" />
                       </div>
                     </div>
-                    <div
-                      className="item2"
-                      data-bottom-top="transform: translateY(-50px)"
-                      data-top-bottom="transform: translateY(50px)"
-                    >
-                      <div className="info-widget style-1 move-3">
-                        <div className="avatar-group">
-                          <Image
-                            className="avatar rounded-circle avatar-sm border border-white border-2"
-                            src={IMAGES.smallavatar1}
-                            alt=""
-                          />
-                          <Image
-                            className="avatar rounded-circle avatar-sm border border-white border-2"
-                            src={IMAGES.smallavatar2}
-                            alt=""
-                          />
-                          <Image
-                            className="avatar rounded-circle avatar-sm border border-white border-2"
-                            src={IMAGES.smallavatar3}
-                            alt=""
-                          />
-                          <Image
-                            className="avatar rounded-circle avatar-sm border border-white border-2"
-                            src={IMAGES.smallavatar4}
-                            alt=""
-                          />
-                        </div>
-                        <div className="clearfix ms-2">
-                          <span className="number text-primary">150k</span>
-                          <span>Patient recovers</span>
-                        </div>
-                      </div>
-                    </div>
+
                     <div
                       className="item3"
                       data-bottom-top="transform: translateY(-50px)"
@@ -157,63 +124,7 @@ function HomePage() {
                         </div>
                       </div>
                     </div>
-                    <div
-                      className="item4"
-                      data-bottom-top="transform: translateY(-50px)"
-                      data-top-bottom="transform: translateY(50px)"
-                    >
-                      <div className="info-widget style-3 move-1">
-                        <div className="widget-head">
-                          <div className="widget-media">
-                            <Image src={IMAGES.smallavatar5} alt="" />
-                          </div>
-                          <div className="widget-content">
-                            <h6 className="title">Dr. Natali jackson</h6>
-                            <ul className="star-list">
-                              <li>
-                                <i className="fa fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa fa-star" />
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <p>
-                          “It is a long established fact that a reader will be
-                          distracted by the readable content”
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="item5"
-                data-bottom-top="transform: translateY(-30px)"
-                data-top-bottom="transform: translateY(30px)"
-              >
-                <div className="info-widget style-4 move-4">
-                  <div className="widget-media">
-                    <Image src={IMAGES.smallavatar6} alt="" />
-                  </div>
-                  <div className="widget-content">
-                    <h6 className="title">Have a Question?</h6>
-                    <Link href="mailto:admin@drbuddies.com">
-                      admin@drbuddies.com
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

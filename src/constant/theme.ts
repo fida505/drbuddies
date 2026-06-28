@@ -30,6 +30,7 @@ import smallavatar5 from '../../public/assets/images/avatar/small/avatar5.webp';
 import smallavatar6 from '../../public/assets/images/avatar/small/avatar6.webp';
 import herobannerbg1 from '../../public/assets/images/hero-banner/bg1.webp'
 import herobanner1 from '../../public/assets/images/hero-banner/img1.webp'
+import drImage from '../../public/assets/images/hero-banner/dr.png'
 import about1 from '../../public/assets/images/about/img1.webp'
 import about2 from '../../public/assets/images/about/img2.webp'
 import about3 from '../../public/assets/images/about/img3.webp'
@@ -139,7 +140,7 @@ export const IMAGES = {
     herobannerline: herobannerline,
     herobannerheart: herobannerheart,
     herobannerbg1: herobannerbg1,
-    herobanner1: herobanner1,
+    herobanner1: drImage,
     about1: about1,
     about2: about2,
     about3: about3,
