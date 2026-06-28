@@ -105,25 +105,7 @@ function HomePage() {
                       </div>
                     </div>
 
-                    <div
-                      className="item3"
-                      data-bottom-top="transform: translateY(-50px)"
-                      data-top-bottom="transform: translateY(50px)"
-                    >
-                      <div className="info-widget style-2 move-2">
-                        {/* progress chart */}
-                        <DiagnosisReport />
-                        <div className="widget-content">
-                          <h6 className="mb-0">Successfully diagnosis</h6>
-                          <Link
-                            href="/team-detail"
-                            className="btn btn-square btn-outline-light text-primary rounded-circle"
-                          >
-                            <i className="feather icon-arrow-up-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
+
 
             </div>
           </div>
