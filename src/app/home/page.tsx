@@ -86,7 +86,7 @@ function HomePage() {
                   data-wow-delay="0.8s"
                   data-wow-duration="0.8s"
                 >
-                  <div
+                   <div
                     className="hero-thumbnail"
                     data-bottom-top="transform: translateY(-50px)"
                     data-top-bottom="transform: translateY(50px)"
@@ -97,17 +97,6 @@ function HomePage() {
                       alt=""
                       unoptimized={true}
                     />
-                    <div className="circle-wrapper">
-                      <span className="circle1"></span>
-                      <span className="circle2"></span>
-                      <span className="circle3"></span>
-                      <div className="item1">
-                        <Image src={IMAGES.herobannerheart} alt="" />
-                      </div>
-                    </div>
-
-
-
                   </div>
                 </div>
               </div>
