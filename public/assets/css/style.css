@@ -15531,7 +15531,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  height: 135%;
+  height: 123%;
   width: auto;
   max-width: none;
 }
