@@ -14,7 +14,7 @@ import RealPatient from "@/component/RealPatient";
 import Howitwork from "@/component/Howitwork";
 import MeetDr from "@/component/MeetDr";
 import Frequently from "@/component/Frequently";
-import Awards from "@/component/Awards";
+
 import StayInformed from "@/component/StayInformed";
 import MapWraper from "@/component/MapWraper";
 
@@ -210,7 +210,7 @@ function HomePage() {
         <Howitwork />
         <MeetDr />
         <Frequently />
-        <Awards />
+
         <StayInformed />
         <MapWraper />
       </main>
