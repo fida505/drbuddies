@@ -55,7 +55,7 @@ function RealPatient() {
                                             <Image src={IMAGES.smallavatar5} alt="" />
                                         </div>
                                         <div className="widget-content">
-                                            <h6 className="title">Dr. Natali jackson</h6>
+                                            <h6 className="title">Dr. Iyad Mohammed</h6>
                                             <ul className="star-list">
                                                 <li><i className="fa fa-star" /></li>
                                                 <li><i className="fa fa-star" /></li>

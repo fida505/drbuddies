@@ -27,8 +27,8 @@ function MeetDr() {
                         </div>
                         <div className="col-xl-6 col-lg-7 m-b30 align-self-center">
                             <div className="section-head style-1 m-b30">
-                                <h2 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Meet Dr. Natali jackson</h2>
-                                <p className="fw-normal wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s"><strong className="text-secondary fw-semibold">Dr. Natali jackson</strong> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                <h2 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Meet Dr. Iyad Mohammed</h2>
+                                <p className="fw-normal wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s"><strong className="text-secondary fw-semibold">Dr. Iyad Mohammed</strong> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                             </div>
                             <h3 className="text-primary title-dashed-separator wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">About Skills</h3>
                             <ul className="list-check-circle text-secondary fw-medium grid-2 m-b30 wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.8s">
