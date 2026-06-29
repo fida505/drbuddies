@@ -91,16 +91,16 @@ function HomePage() {
                     data-bottom-top="transform: translateY(-50px)"
                     data-top-bottom="transform: translateY(50px)"
                   >
-                    <Image
-                      className="thumbnail"
-                      src={IMAGES.herobanner1}
-                      alt=""
-                      unoptimized={true}
-                    />
                     <div className="circle-wrapper">
                       <span className="circle1"></span>
                       <span className="circle2"></span>
                       <span className="circle3"></span>
+                      <Image
+                        className="thumbnail"
+                        src={IMAGES.herobanner1}
+                        alt=""
+                        unoptimized={true}
+                      />
                     </div>
                   </div>
                 </div>
