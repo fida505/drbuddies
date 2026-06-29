@@ -15531,10 +15531,8 @@ section {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  mix-blend-mode: multiply;
   max-height: 100%;
   width: auto;
-  filter: contrast(1.05);
 }
 .hero-banner.style-1 .item1 {
   width: 90px;
