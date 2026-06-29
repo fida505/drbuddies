@@ -59,7 +59,7 @@ function Footer() {
                                     <div className="footer-logo logo-white">
                                         <Link href="/"><Image src={IMAGES.logo} alt="" /></Link>
                                     </div>
-                                    <p><span className="text-primary">DrBuddies</span> Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit, Sed Diam Nonummy Nibh Euismod Tincidunt Ut Laoreet Dolore Agna Aliquam Erat . Wisi Enim Ad Minim Veniam, Quis Tation. Sit Amet, Consec Tetuer. Ipsum Dolor</p>
+                                    <p>At <span className="text-primary">Dr Buddies</span> Health Hub, we believe healthcare is more than treating illness—it's about building lasting relationships based on trust, compassion, and excellence. Our multidisciplinary team of experienced doctors provides comprehensive medical care tailored to every patient's unique needs. From preventive health check-ups and chronic disease management to specialized treatments and rehabilitation, we are committed to helping individuals and families achieve healthier lives. With advanced medical facilities, experienced professionals, and a patient-first approach, Dr Buddies Health Hub strives to deliver quality healthcare that is accessible, reliable, and compassionate.</p>
                                 </div>
                             </div>
                             {footerdata2.map((data, i) => (
