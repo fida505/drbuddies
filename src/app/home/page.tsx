@@ -96,7 +96,6 @@ function HomePage() {
                       src={IMAGES.herobanner1}
                       alt=""
                       unoptimized={true}
-                      style={{ maxWidth: '85%', height: 'auto', margin: '0 auto', display: 'block' }}
                     />
                     <div className="circle-wrapper">
                       <span className="circle1"></span>

@@ -15531,6 +15531,9 @@ section {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
+  mix-blend-mode: multiply;
+  max-height: 100%;
+  width: auto;
 }
 .hero-banner.style-1 .item1 {
   width: 90px;
@@ -15659,6 +15662,16 @@ section {
 @media only screen and (max-width: 575px) {
   .hero-banner.style-1 .hero-thumbnail {
     width: 100%;
+  }
+  .hero-banner.style-1 .hero-thumbnail .thumbnail {
+    position: relative;
+    left: auto;
+    transform: none;
+    max-width: 85%;
+    max-height: 380px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
   }
   .hero-banner.style-1 .title {
     font-size: 36px;
