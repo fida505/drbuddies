@@ -53,16 +53,16 @@ function Footer() {
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xl-3 col-sm-12 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
+                            <div className="col-xl-4 col-sm-12 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
                                 <div className="widget widget_about me-2">
                                     <div className="footer-logo logo-white">
                                         <Link href="/"><Image src={IMAGES.logo} alt="" /></Link>
                                     </div>
-                                    <p>At <span className="text-primary">Dr Buddies</span> Health Hub, we believe healthcare is more than treating illness—it's about building lasting relationships based on trust, compassion, and excellence. Our multidisciplinary team of experienced doctors provides comprehensive medical care tailored to every patient's unique needs. From preventive health check-ups and chronic disease management to specialized treatments and rehabilitation, we are committed to helping individuals and families achieve healthier lives. With advanced medical facilities, experienced professionals, and a patient-first approach, Dr Buddies Health Hub strives to deliver quality healthcare that is accessible, reliable, and compassionate.</p>
+                                    <p style={{ fontSize: '13px', lineHeight: '1.7', opacity: 0.85 }}>At <span className="text-primary">Dr Buddies</span> Health Hub, we believe healthcare is more than treating illness—it's about building lasting relationships based on trust, compassion, and excellence. Our multidisciplinary team of experienced doctors provides comprehensive medical care tailored to every patient's unique needs. From preventive health check-ups and chronic disease management to specialized treatments and rehabilitation, we are committed to helping individuals and families achieve healthier lives. With advanced medical facilities, experienced professionals, and a patient-first approach, Dr Buddies Health Hub strives to deliver quality healthcare that is accessible, reliable, and compassionate.</p>
                                 </div>
                             </div>
                             {footerdata2.map((data, i) => (
-                                <div className="col-xl-2 col-md-3 col-6 wow fadeInUp" data-wow-delay={data.delay} data-wow-duration="0.8s" key={i}>
+                                <div className="col-xl-2 col-md-2 col-6 wow fadeInUp" data-wow-delay={data.delay} data-wow-duration="0.8s" key={i}>
                                     <div className="widget widget_services">
                                         <h2 className="footer-title">{data.title} </h2>
                                         <ul className="list-hover1">
